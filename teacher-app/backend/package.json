@@ -1,0 +1,15 @@
+{
+  "name": "teacher-app-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.17.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "setpw": "node set_admin_password.js"
+  }
+}
