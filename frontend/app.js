@@ -1,0 +1,1 @@
+fetch("http://localhost:3000/api/teachers").then(res=>res.json()).then(data=>{console.log(data);document.getElementById("teacher-list").innerHTML=JSON.stringify(data)})
